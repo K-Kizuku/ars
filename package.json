@@ -1,0 +1,22 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "My Node.js app",
+    "main": "index.js",
+    "baseUrl":"./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "exports":{
+      "@":{
+        "import":"./src/*"
+      }
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
